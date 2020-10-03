@@ -1,12 +1,13 @@
 import React from 'react'
-import ExpensesList from './components/ExpensesList'
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './routes'
 
 function App() {
     return (
-        <div className="App">
-            <h1>Uma Só</h1>
-            <ExpensesList />
-        </div>
+        <BrowserRouter>
+            <Routes />
+        </BrowserRouter>
+
     )
 }
 
