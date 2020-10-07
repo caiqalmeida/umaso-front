@@ -7,13 +7,7 @@ import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow'
 import Paper from '@material-ui/core/Paper'
 
-function createData(
-    name: string,
-    calories: number,
-    fat: number,
-    carbs: number,
-    protein: number
-) {
+function createData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein }
 }
 
