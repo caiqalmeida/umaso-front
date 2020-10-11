@@ -10,12 +10,7 @@ const theme = {
         black: '#000000',
     },
     fonts: {
-        primary: "'Poppins', sans-serif;",
-    },
-    fontSizes: {
-        small: '1em',
-        medium: '2em',
-        large: '3em',
+        primary: 'Poppins',
     },
 }
 
